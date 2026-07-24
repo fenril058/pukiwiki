@@ -29,3 +29,7 @@
 /node_modules/
 /package-lock.json
 
+
+# Nix build result symlink
+result
+result-*

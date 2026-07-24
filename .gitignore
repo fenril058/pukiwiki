@@ -33,3 +33,4 @@
 # Nix build result symlink
 result
 result-*
+.direnv/

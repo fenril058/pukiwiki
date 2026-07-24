@@ -15,7 +15,7 @@
 
         # PukiWiki は composer を使わず、PHP 本体と拡張だけで動く。
         # 必須: mbstring(マルチバイト処理)。任意: gd(画像系プラグイン), exif。
-        php = pkgs.php83.buildEnv {
+        php = pkgs.php84.buildEnv {
           extensions =
             { enabled, all }:
             enabled
